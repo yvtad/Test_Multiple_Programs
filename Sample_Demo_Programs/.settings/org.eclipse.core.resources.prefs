@@ -1,14 +1,4 @@
 eclipse.preferences.version=1
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTDATE_RETURN-CODE.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_CWKTSUBC_RETURN-CODE.listructure=UTF-8
-encoding//CWKTCOBX/Structures/CWKTCOBX_TODAYS-DATE.listructure=UTF-8
 encoding//CWKTDATE/Structures/CWKTDATE_EOM-SW.listructure=UTF-8
 encoding//CWKTDATE/Structures/CWKTDATE_HIRE-DATE.listructure=UTF-8
 encoding//CWKTDATE/Structures/CWKTDATE_RETURN-CODE.listructure=UTF-8
