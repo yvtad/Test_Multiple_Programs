@@ -1,0 +1,30 @@
+14:43:10.937 INFO      TOPAZ            ***************************************
+14:43:10.937 INFO      TOPAZ            ** Execution from Topaz with options **
+14:43:10.937 INFO      TOPAZ            ***************************************
+14:43:10.937 INFO      TOPAZ            Using repository: false
+14:43:10.937 INFO      TOPAZ            ***************************************
+14:43:10.937 INFO      Engine           Test Scenario execution started
+14:43:10.937 INFO      Engine           Using context settings:
+  Engine Version                : 20.8.2.v20211026-0506_133
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 
+  Host user Id                  : HBOYXN0
+  Use Repository Server         : false
+14:43:10.937 INFO      Engine           Setting variables from context and context data extensions
+14:43:10.937 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+14:43:10.937 INFO      Engine             id: environmentType    value: BATCH
+14:43:10.937 INFO      Engine             id: userId             value: HBOYXN0
+14:43:10.937 INFO      Engine             id: accountingInfo     value: 
+14:43:10.937 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+14:43:10.946 ERROR     Engine           The skeleton file C:/Users/ysantana/git/Test_Multiple_Programs/TotalTestConfiguration/JCLSkeletons2/TTTRUNNER.jcl does not exist
+14:43:10.946 ERROR     Engine           An error occurred. Now stopping the execution.
+14:43:10.946 INFO      Engine           Test Scenario execution ended
