@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>HBOYXN0.XPED.LOAD.PDSE</Value>
+      <Value>DSNB10.DBCC.RUNLIB.LOAD</Value>
+      <Value>DSNB10.SDSNLOAD</Value>
+      <Value>CEE.SCEERUN</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWYSDB2X" caseInsensitiveCompare="false" path="CWYSDB2X_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWYSDB2X_Scenario.testscenario" moduleName="CWYSDB2X" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

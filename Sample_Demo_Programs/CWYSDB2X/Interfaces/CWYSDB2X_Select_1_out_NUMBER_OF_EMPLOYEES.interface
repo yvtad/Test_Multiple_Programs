@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.8.2.v20211026-0506_133?>
+<!--Topaz for Total Test 20.8.2.v20211026-0506_133 Nov 11, 2021 9:32:17 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWYSDB2X/Interfaces/CWYSDB2X_Select_1_out_NUMBER_OF_EMPLOYEES.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/CWYSDB2X/CWYSDB2X_Select_NUMBER-OF-EMPLOYEES.listructure#CWYSDB2X/Structures/Db2/CWYSDB2X/CWYSDB2X_Select_NUMBER-OF-EMPLOYEES.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWYSDB2X/CWYSDB2X_Select_NUMBER-OF-EMPLOYEES.listructure#NUMBER_OF_EMPLOYEES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/CWYSDB2X/CWYSDB2X_Select_NUMBER-OF-EMPLOYEES.listructure#NUMBER_OF_EMPLOYEES.NUMBER_OF_EMPLOYEES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

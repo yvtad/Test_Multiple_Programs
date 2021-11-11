@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWKTDATE/Scenarios/CWKTDATE_Scenario.testscenario" persistent="true">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWKTDATE" encoding="1047" entrypoint="CWKTDATE" id="CWKTDATE/Scenarios/CWKTDATE_Scenario.testscenario%23CWKTDATECase1" target="CWKTVSKS">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.XT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1559219524000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTDATE.interface#CWKTDATE/Interfaces/CWKTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTDATE_EOM-SW.listructure#CWKTDATE/Structures/CWKTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+            <properties:property name="address" type="string">37CE47BC</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTDATE_YRS-OF-SERVICE.listructure#CWKTDATE/Structures/CWKTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F0F0</properties:property>
+            <properties:property name="address" type="string">37CE47E0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTDATE_RUN-DATE.listructure#CWKTDATE/Structures/CWKTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F1F1F1F1F1</properties:property>
+            <properties:property name="expectedValue" type="string">F2F1F1F1F1F1</properties:property>
+            <properties:property name="address" type="string">37CE47E8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTDATE_HIRE-DATE.listructure#CWKTDATE/Structures/CWKTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">000000000000</properties:property>
+            <properties:property name="address" type="string">37CE5AF5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWKTDATE_RETURN-CODE.listructure#CWKTDATE/Structures/CWKTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWKTDATE</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWKTDATE" encoding="1047" entrypoint="CWKTDATE" id="CWKTDATE/Scenarios/CWKTDATE_Scenario.testscenario%23CWKTDATECase2" target="CWKTVSKS">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.XT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1559219524000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTDATE.interface#CWKTDATE/Interfaces/CWKTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTDATE_EOM-SW.listructure#CWKTDATE/Structures/CWKTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+            <properties:property name="address" type="string">37CE47BC</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTDATE_YRS-OF-SERVICE.listructure#CWKTDATE/Structures/CWKTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F4F9</properties:property>
+            <properties:property name="address" type="string">37CE47E0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTDATE_RUN-DATE.listructure#CWKTDATE/Structures/CWKTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F1F1F1F1F1</properties:property>
+            <properties:property name="expectedValue" type="string">F2F1F1F1F1F1</properties:property>
+            <properties:property name="address" type="string">37CE47E8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTDATE_HIRE-DATE.listructure#CWKTDATE/Structures/CWKTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F7F2F0F6F0F2</properties:property>
+            <properties:property name="expectedValue" type="string">F7F2F0F6F0F2</properties:property>
+            <properties:property name="address" type="string">37CE5AF5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWKTDATE_RETURN-CODE.listructure#CWKTDATE/Structures/CWKTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWKTDATE</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

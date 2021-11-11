@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.XT.LOAD.PDSE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTDATE" caseInsensitiveCompare="false" path="CWKTDATE_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWKTDATE_Scenario.testscenario" moduleName="CWKTDATE" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

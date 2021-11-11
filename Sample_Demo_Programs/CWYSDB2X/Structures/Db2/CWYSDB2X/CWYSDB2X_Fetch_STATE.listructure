@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.8.2.v20211026-0506_133?>
+<!--Topaz for Total Test 20.8.2.v20211026-0506_133 Nov 11, 2021 9:32:24 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWYSDB2X/Structures/Db2/CWYSDB2X/CWYSDB2X_Fetch_STATE.listructure">
+  <listructure:struct id="STATE" name="STATE">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">2</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">2</properties:property>
+    </properties:properties>
+    <listructure:string id="STATE.STATE" length="2" name="STATE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+        <properties:property name="sqltype" type="number">453</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>
