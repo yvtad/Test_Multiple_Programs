@@ -1,10 +1,10 @@
-14:43:10.937 INFO      TOPAZ            ***************************************
-14:43:10.937 INFO      TOPAZ            ** Execution from Topaz with options **
-14:43:10.937 INFO      TOPAZ            ***************************************
-14:43:10.937 INFO      TOPAZ            Using repository: false
-14:43:10.937 INFO      TOPAZ            ***************************************
-14:43:10.937 INFO      Engine           Test Scenario execution started
-14:43:10.937 INFO      Engine           Using context settings:
+15:10:22.702 INFO      TOPAZ            ***************************************
+15:10:22.702 INFO      TOPAZ            ** Execution from Topaz with options **
+15:10:22.702 INFO      TOPAZ            ***************************************
+15:10:22.702 INFO      TOPAZ            Using repository: false
+15:10:22.702 INFO      TOPAZ            ***************************************
+15:10:22.705 INFO      Engine           Test Scenario execution started
+15:10:22.706 INFO      Engine           Using context settings:
   Engine Version                : 20.8.2.v20211026-0506_133
   Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
@@ -19,12 +19,21 @@
   Codepage                      : 
   Host user Id                  : HBOYXN0
   Use Repository Server         : false
-14:43:10.937 INFO      Engine           Setting variables from context and context data extensions
-14:43:10.937 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-14:43:10.937 INFO      Engine             id: environmentType    value: BATCH
-14:43:10.937 INFO      Engine             id: userId             value: HBOYXN0
-14:43:10.937 INFO      Engine             id: accountingInfo     value: 
-14:43:10.937 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
-14:43:10.946 ERROR     Engine           The skeleton file C:/Users/ysantana/git/Test_Multiple_Programs/TotalTestConfiguration/JCLSkeletons2/TTTRUNNER.jcl does not exist
-14:43:10.946 ERROR     Engine           An error occurred. Now stopping the execution.
-14:43:10.946 INFO      Engine           Test Scenario execution ended
+15:10:22.706 INFO      Engine           Setting variables from context and context data extensions
+15:10:22.706 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+15:10:22.710 INFO      Engine             id: environmentType    value: BATCH
+15:10:22.710 INFO      Engine             id: userId             value: HBOYXN0
+15:10:22.710 INFO      Engine             id: accountingInfo     value: 
+15:10:22.712 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+15:10:22.980 INFO      Unittest         Using JCL skeleton to submit JCL
+15:10:27.038 INFO      CWCC - Demo System Sending Job execution request to Host 
+15:10:32.304 INFO      CWCC - Demo System Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HBOYXN0A(J0208722) ended with return code: 0000
+  Job name       : HBOYXN0A
+  Job id         : J0208722
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+15:10:33.944 INFO      Unittest         Execution completed
+15:10:33.944 INFO      Engine           Test Scenario execution ended
