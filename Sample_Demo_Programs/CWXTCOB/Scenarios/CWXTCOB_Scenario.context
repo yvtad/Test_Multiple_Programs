@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData>
-    <Parameter key="ispw_stream">
+    <Parameter key="ispw_level">
+      <Value>QA1</Value>
+    </Parameter>
+    <Parameter key="ispw_app">
       <Value>YXN1</Value>
     </Parameter>
     <Parameter key="unittest.loadlibraries">
-      <Value>SALESSUP.${ispw_stream}.${ispw_stg_level}.LOAD</Value>
-    </Parameter>
-    <Parameter key="ispw_stg_level">
-      <Value>QA1</Value>
+      <Value>SALESSUP.${ispw_app}.${ispw_level}.LOAD</Value>
     </Parameter>
   </ExtensionData>
   <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.context">
