@@ -30,7 +30,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWKTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
             <properties:property name="value" type="string">F2F1F1F1F1F1</properties:property>
-            <properties:property name="expectedValue" type="string">F2F1F1F1F1F1</properties:property>
+            <properties:property name="expectedValue" type="string">F2F2F1F1F1F1</properties:property>
             <properties:property name="address" type="string">37CE47E8</properties:property>
           </properties:properties>
         </testcase:data>
@@ -44,8 +44,15 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWKTDATE_EOM-SW.listructure#CWKTDATE/Structures/CWKTDATE_EOM-SW.listructure"/>
+      <testcase:output listructure="../Structures/CWKTDATE_YRS-OF-SERVICE.listructure#CWKTDATE/Structures/CWKTDATE_YRS-OF-SERVICE.listructure"/>
+      <testcase:output listructure="../Structures/CWKTDATE_RUN-DATE.listructure#CWKTDATE/Structures/CWKTDATE_RUN-DATE.listructure"/>
+      <testcase:output listructure="../Structures/CWKTDATE_HIRE-DATE.listructure#CWKTDATE/Structures/CWKTDATE_HIRE-DATE.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition>
+          <checkconditions:expectation/>
+        </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs/>
       <testcase:returncode listructure="../Structures/CWKTDATE_RETURN-CODE.listructure#CWKTDATE/Structures/CWKTDATE_RETURN-CODE.listructure">

@@ -12,7 +12,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17A.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
@@ -28,7 +28,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17A.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
@@ -44,39 +44,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
-    </jclproperties>
-  </Connection>
-  <Connection>
-    <id>14af5177-5d73-469a-a83f-6ba178663c2f</id>
-    <ipaddress>192.168.96.142</ipaddress>
-    <port>16198</port>
-    <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://192.168.96.142:&lt;port&gt;/${database}</databaseUri>
-    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>Test Drive</description>
-    <label>Test Drive</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
-    <datasethlq />
-    <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
-    </jclproperties>
-  </Connection>
-  <Connection>
-    <id>d4e48941-fb6e-4f45-a33d-c34d06dbd394</id>
-    <ipaddress>192.168.96.130</ipaddress>
-    <port>16198</port>
-    <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://192.168.96.130:&lt;port&gt;/${database}</databaseUri>
-    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>Test Drive</description>
-    <label>Test Drive</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
-    <datasethlq />
-    <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.&amp;CWGACX..SLCXLOAD" />
     </jclproperties>
   </Connection>
 </Connections>

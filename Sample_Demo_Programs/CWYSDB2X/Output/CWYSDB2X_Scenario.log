@@ -1,0 +1,39 @@
+11:13:14.534 INFO      TOPAZ            ***************************************
+11:13:14.534 INFO      TOPAZ            ** Execution from Topaz with options **
+11:13:14.534 INFO      TOPAZ            ***************************************
+11:13:14.534 INFO      TOPAZ            Using repository: false
+11:13:14.535 INFO      TOPAZ            ***************************************
+11:13:14.535 INFO      Engine           Test Scenario execution started
+11:13:14.535 INFO      Engine           Using context settings:
+  Engine Version                : 20.9.2.v20220119-0531_125
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 
+  Host user Id                  : HBOYXN0
+  Use Repository Server         : false
+11:13:14.535 INFO      Engine           Setting variables from context and context data extensions
+11:13:14.535 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+11:13:14.535 INFO      Engine             id: environmentType    value: BATCH
+11:13:14.535 INFO      Engine             id: userId             value: HBOYXN0
+11:13:14.535 INFO      Engine             id: accountingInfo     value: 
+11:13:14.536 INFO      Unittest         Interpreting Unittest of module: CWYSDB2X testscenario path: CWYSDB2X_Scenario.testscenario
+11:13:14.635 INFO      Unittest         Using JCL skeleton to submit JCL
+11:13:18.357 INFO      CWCC - Demo System Sending Job execution request to Host 
+11:13:23.571 INFO      CWCC - Demo System Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HBOYXN0A(J0244502) ended with return code: 0000
+  Job name       : HBOYXN0A
+  Job id         : J0244502
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+11:13:25.063 INFO      Unittest         Execution completed
+11:13:25.063 INFO      Engine           Test Scenario execution ended
