@@ -5,7 +5,7 @@
       <Value>CWEZ.TXXX.PRD.LOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTDATE" caseInsensitiveCompare="false" path="CWXTDATE_Scenario.testscenario">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTDATE" caseInsensitiveCompare="false" path="CWXTDATE_Scenario.context">
     <Test>
       <Unittest testscenariopath="CWXTDATE_Scenario.testscenario" moduleName="CWXTDATE" />
     </Test>
