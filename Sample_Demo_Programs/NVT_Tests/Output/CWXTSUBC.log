@@ -1,11 +1,11 @@
-14:34:35.991 INFO      Total Test       ***************************************
-14:34:35.992 INFO      Total Test       ** Execution from Topaz with options **
-14:34:35.992 INFO      Total Test       ***************************************
-14:34:35.992 INFO      Total Test       Using repository: true
-14:34:35.992 INFO      Total Test       Repository URL: http://cwcc.bmc.com:2020/totaltestapi/
-14:34:35.993 INFO      Total Test       ***************************************
-14:34:35.993 INFO      Engine           Test Scenario execution started
-14:34:35.994 INFO      Engine           Using context settings:
+14:44:31.981 INFO      Total Test       ***************************************
+14:44:31.981 INFO      Total Test       ** Execution from Topaz with options **
+14:44:31.982 INFO      Total Test       ***************************************
+14:44:31.982 INFO      Total Test       Using repository: true
+14:44:31.982 INFO      Total Test       Repository URL: http://cwcc.bmc.com:2020/totaltestapi/
+14:44:31.982 INFO      Total Test       ***************************************
+14:44:31.983 INFO      Engine           Test Scenario execution started
+14:44:31.983 INFO      Engine           Using context settings:
   Engine Version                : 20.14.1.v20230322-1236_103
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
@@ -22,66 +22,66 @@
   Use Repository Server         : true
   Account Information           : 
   Dataset High Level Qualifier  : 
-14:34:35.994 INFO      Engine           Setting variables from context and context data extensions
-14:34:35.994 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-14:34:35.994 INFO      Engine             id: environmentType    value: BATCH
-14:34:35.995 INFO      Engine             id: userId             value: HBOYXN0
-14:34:35.995 INFO      Engine             id: accountingInfo     value: 
-14:34:35.995 INFO      Engine             id: datasetHQL         value: 
-14:34:35.998 INFO      Variable         Interpreting Variable id:data dataFile:CWXTSUBC_data.xlsx
-14:34:36.015 INFO      IterateData      Interpreting IterateData id: iterate. Number of data iterations: 3. Variable iterateIndex contains iteration number
-14:34:36.015 INFO      IterateData      Iteration number 0 started.
-14:34:36.016 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
-14:34:36.018 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
-14:34:36.098 INFO      HCIClient        Creating job directory /u/xatester/hboyxn0/dc7da36b6b1041ffa9d94945855ea868
-14:34:36.931 INFO      HCIClient        Job has been started at host with JobId:J0394229
-14:34:42.160 INFO      CWCC Batch       Job execution completed with status:
+14:44:31.983 INFO      Engine           Setting variables from context and context data extensions
+14:44:31.983 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+14:44:31.983 INFO      Engine             id: environmentType    value: BATCH
+14:44:31.984 INFO      Engine             id: userId             value: HBOYXN0
+14:44:31.984 INFO      Engine             id: accountingInfo     value: 
+14:44:31.984 INFO      Engine             id: datasetHQL         value: 
+14:44:31.985 INFO      Variable         Interpreting Variable id:data dataFile:CWXTSUBC_data.xlsx
+14:44:31.993 INFO      IterateData      Interpreting IterateData id: iterate. Number of data iterations: 3. Variable iterateIndex contains iteration number
+14:44:31.993 INFO      IterateData      Iteration number 0 started.
+14:44:31.993 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+14:44:31.995 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+14:44:32.045 INFO      HCIClient        Creating job directory /u/xatester/hboyxn0/2e9c13a5daef4893af0a61cb2704691e
+14:44:32.759 INFO      HCIClient        Job has been started at host with JobId:J0394232
+14:44:37.935 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0E(J0394229) ended with return code: 0000
+  Job status msg : Job HBOYXN0E(J0394232) ended with return code: 0000
   Job name       : HBOYXN0E
-  Job id         : J0394229
+  Job id         : J0394232
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-14:34:42.265 INFO      CWCC Batch       Component completed with program exit: +0
-14:34:42.362 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-14:34:42.379 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-14:34:42.380 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
-14:34:42.380 INFO      ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 200.0 Expected: 100.0. Actual value:200. Expected value:100
-14:34:42.380 INFO      Engine           Component name:CWXTSUBC contains data that was not verified correctly
-14:34:42.381 INFO      IterateData      Iteration number 1 started.
-14:34:42.381 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
-14:34:42.383 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
-14:34:42.748 INFO      HCIClient        Creating job directory /u/xatester/hboyxn0/7dc64dee7b464312b0dd05725887a545
-14:34:43.487 INFO      HCIClient        Job has been started at host with JobId:J0394230
-14:34:48.674 INFO      CWCC Batch       Job execution completed with status:
+14:44:38.024 INFO      CWCC Batch       Component completed with program exit: +0
+14:44:38.118 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+14:44:38.127 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+14:44:38.127 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+14:44:38.128 INFO      ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 200.0 Expected: 100.0. Actual value:200. Expected value:100
+14:44:38.128 INFO      Engine           Component name:CWXTSUBC contains data that was not verified correctly
+14:44:38.128 INFO      IterateData      Iteration number 1 started.
+14:44:38.129 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+14:44:38.129 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+14:44:38.481 INFO      HCIClient        Creating job directory /u/xatester/hboyxn0/cc5f9e8e0e4d4d2fb471bba95c7d1cd3
+14:44:39.185 INFO      HCIClient        Job has been started at host with JobId:J0394233
+14:44:44.369 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0E(J0394230) ended with return code: 0000
+  Job status msg : Job HBOYXN0E(J0394233) ended with return code: 0000
   Job name       : HBOYXN0E
-  Job id         : J0394230
+  Job id         : J0394233
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-14:34:48.776 INFO      CWCC Batch       Component completed with program exit: +0
-14:34:48.875 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-14:34:48.885 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-14:34:48.885 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
-14:34:48.886 INFO      IterateData      Iteration number 2 started.
-14:34:48.886 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
-14:34:48.888 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
-14:34:49.259 INFO      HCIClient        Creating job directory /u/xatester/hboyxn0/20f8af95ef9d4e1eb703230effb1606c
-14:34:50.003 INFO      HCIClient        Job has been started at host with JobId:J0394231
-14:34:55.194 INFO      CWCC Batch       Job execution completed with status:
+14:44:44.459 INFO      CWCC Batch       Component completed with program exit: +0
+14:44:44.556 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+14:44:44.565 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+14:44:44.565 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+14:44:44.565 INFO      IterateData      Iteration number 2 started.
+14:44:44.565 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+14:44:44.566 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+14:44:44.924 INFO      HCIClient        Creating job directory /u/xatester/hboyxn0/cf5c7d1f51e84f73bd8ddee700af5de0
+14:44:45.641 INFO      HCIClient        Job has been started at host with JobId:J0394234
+14:44:50.836 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0E(J0394231) ended with return code: 0000
+  Job status msg : Job HBOYXN0E(J0394234) ended with return code: 0000
   Job name       : HBOYXN0E
-  Job id         : J0394231
+  Job id         : J0394234
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-14:34:55.282 INFO      CWCC Batch       Component completed with program exit: +0
-14:34:55.390 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-14:34:55.399 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-14:34:55.400 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
-14:34:55.400 INFO      IterateData      IterateData completed
-14:34:55.400 INFO      Engine           Test Scenario execution ended
+14:44:50.923 INFO      CWCC Batch       Component completed with program exit: +0
+14:44:51.013 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+14:44:51.020 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+14:44:51.021 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+14:44:51.021 INFO      IterateData      IterateData completed
+14:44:51.021 INFO      Engine           Test Scenario execution ended
